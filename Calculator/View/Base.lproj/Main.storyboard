@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ey4-0b-agg">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="dark"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -124,7 +124,7 @@
                                                 <color key="tintColor" name="resultViewColor"/>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="border" translatesAutoresizingMaskIntoConstraints="NO" id="dBi-Fy-N7P">
-                                                <rect key="frame" x="-6" y="0.0" width="420" height="52"/>
+                                                <rect key="frame" x="-6" y="-1" width="420" height="52"/>
                                                 <color key="tintColor" red="0.82352941180000006" green="0.090196078430000007" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             </imageView>
                                         </subviews>
@@ -132,14 +132,12 @@
                                         <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
                                         <constraints>
                                             <constraint firstItem="dBi-Fy-N7P" firstAttribute="leading" secondItem="l2G-qy-RI7" secondAttribute="leading" constant="-6" id="2iA-Iu-2Lf"/>
-                                            <constraint firstItem="TeR-fo-L8P" firstAttribute="centerX" secondItem="l2G-qy-RI7" secondAttribute="centerX" id="6aJ-2F-tjp"/>
                                             <constraint firstItem="TeR-fo-L8P" firstAttribute="centerY" secondItem="l2G-qy-RI7" secondAttribute="centerY" id="75O-sZ-1Zb"/>
-                                            <constraint firstItem="dBi-Fy-N7P" firstAttribute="centerX" secondItem="l2G-qy-RI7" secondAttribute="centerX" id="9Sh-Dp-udk"/>
                                             <constraint firstAttribute="bottom" secondItem="TeR-fo-L8P" secondAttribute="bottom" constant="-1" id="FO8-OV-XF0"/>
                                             <constraint firstItem="TeR-fo-L8P" firstAttribute="leading" secondItem="l2G-qy-RI7" secondAttribute="leading" constant="-5" id="KhB-we-qvz"/>
                                             <constraint firstAttribute="trailing" secondItem="TeR-fo-L8P" secondAttribute="trailing" constant="-1" id="TPh-0G-dqC"/>
                                             <constraint firstAttribute="trailing" secondItem="dBi-Fy-N7P" secondAttribute="trailing" id="XP1-sE-fJG"/>
-                                            <constraint firstItem="dBi-Fy-N7P" firstAttribute="centerY" secondItem="l2G-qy-RI7" secondAttribute="centerY" id="lJ0-nd-JbT"/>
+                                            <constraint firstItem="dBi-Fy-N7P" firstAttribute="centerY" secondItem="l2G-qy-RI7" secondAttribute="centerY" constant="-1" id="lJ0-nd-JbT"/>
                                             <constraint firstAttribute="height" constant="52" id="qIr-gG-9ma"/>
                                         </constraints>
                                     </view>
