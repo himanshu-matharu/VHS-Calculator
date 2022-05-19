@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var displayLabel: UILabel!
+    @IBOutlet weak var calculationLabel: UILabel!
     
     private var isFinishedTypingNumber : Bool = true
     
@@ -26,6 +27,15 @@ class ViewController: UIViewController {
         }
     }
     
+    private var calculationValue: String {
+        get{
+            return calculationLabel.text ?? ""
+        }
+        set{
+            calculationLabel.text = String(newValue)
+        }
+    }
+    
     private var calculator = CalculatorLogic()
     
     @IBAction func calcButtonPressed(_ sender: UIButton) {
@@ -37,9 +47,14 @@ class ViewController: UIViewController {
         
         if let calcMethod = sender.currentTitle {
             
-            if let result = calculator.calculate(symbol: calcMethod) {
-                displayValue = result
+            let result = calculator.calculate(symbol: calcMethod)
+            if let resultValue = result.result{
+                displayValue = resultValue
             }
+            if let calcValue = result.calc {
+                calculationValue = calcValue
+            }
+            
         }
     
     }
@@ -53,6 +68,7 @@ class ViewController: UIViewController {
             
             if isFinishedTypingNumber{
                 displayLabel.text = numValue
+                calculationLabel.text = ""
                 isFinishedTypingNumber = false
             }else{
                 
@@ -66,6 +82,7 @@ class ViewController: UIViewController {
                 }
                 
                 displayLabel.text = displayLabel.text! + numValue
+                calculationLabel.text = calculationLabel.text! + numValue
             }
             
         }
