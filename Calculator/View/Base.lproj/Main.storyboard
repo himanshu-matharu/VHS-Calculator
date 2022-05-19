@@ -226,7 +226,7 @@
                                                             <imageReference key="image" image="delete.left.fill" catalog="system" symbolScale="large"/>
                                                         </state>
                                                         <connections>
-                                                            <action selector="calcButtonPressed:" destination="ey4-0b-agg" eventType="touchUpInside" id="wvo-Pv-Wqe"/>
+                                                            <action selector="backButtonPressed:" destination="ey4-0b-agg" eventType="touchUpInside" id="9nS-ez-cSs"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>

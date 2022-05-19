@@ -38,6 +38,11 @@ class ViewController: UIViewController {
     
     private var calculator = CalculatorLogic()
     
+    override func viewDidLoad() {
+        displayLabel.text = "0"
+        calculationLabel.text = ""
+    }
+    
     @IBAction func calcButtonPressed(_ sender: UIButton) {
         
         //What should happen when a non-number button is pressed
@@ -59,6 +64,18 @@ class ViewController: UIViewController {
     
     }
 
+    @IBAction func backButtonPressed(_ sender: UIButton) {
+        if !isFinishedTypingNumber{
+            if let currentNumber = displayLabel.text {
+                var newNumber = String(currentNumber.dropLast())
+                if newNumber.count < 1{
+                    newNumber = "0"
+                    isFinishedTypingNumber = true
+                }
+                displayLabel.text =  newNumber
+            }
+        }
+    }
     
     @IBAction func numButtonPressed(_ sender: UIButton) {
         
@@ -68,7 +85,6 @@ class ViewController: UIViewController {
             
             if isFinishedTypingNumber{
                 displayLabel.text = numValue
-                calculationLabel.text = ""
                 isFinishedTypingNumber = false
             }else{
                 
@@ -82,7 +98,6 @@ class ViewController: UIViewController {
                 }
                 
                 displayLabel.text = displayLabel.text! + numValue
-                calculationLabel.text = calculationLabel.text! + numValue
             }
             
         }
