@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A34AAB1D28AD2545004DC0D4 /* Float+CleanString.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34AAB1C28AD2545004DC0D4 /* Float+CleanString.swift */; };
 		A3819C8D27FECADD00AFA345 /* CalculatorLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3819C8C27FECADD00AFA345 /* CalculatorLogic.swift */; };
 		ADB196212146629E00C5317F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB196202146629E00C5317F /* AppDelegate.swift */; };
 		ADB196232146629E00C5317F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB196222146629E00C5317F /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A34AAB1C28AD2545004DC0D4 /* Float+CleanString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Float+CleanString.swift"; sourceTree = "<group>"; };
 		A3819C8C27FECADD00AFA345 /* CalculatorLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorLogic.swift; sourceTree = "<group>"; };
 		ADB1961D2146629E00C5317F /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADB196202146629E00C5317F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -37,10 +39,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A34AAB1E28AD254D004DC0D4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A34AAB1C28AD2545004DC0D4 /* Float+CleanString.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		A3819C8E27FECAFF00AFA345 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				A3819C8C27FECADD00AFA345 /* CalculatorLogic.swift */,
+				A34AAB1E28AD254D004DC0D4 /* Extensions */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -164,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADB196232146629E00C5317F /* ViewController.swift in Sources */,
+				A34AAB1D28AD2545004DC0D4 /* Float+CleanString.swift in Sources */,
 				ADB196212146629E00C5317F /* AppDelegate.swift in Sources */,
 				A3819C8D27FECADD00AFA345 /* CalculatorLogic.swift in Sources */,
 			);

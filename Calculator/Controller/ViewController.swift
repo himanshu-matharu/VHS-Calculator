@@ -23,7 +23,7 @@ class ViewController: UIViewController {
             return number
         }
         set{
-            displayLabel.text = String(newValue)
+            displayLabel.text = String(newValue.clean)
         }
     }
     

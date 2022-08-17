@@ -40,13 +40,13 @@ struct CalculatorLogic {
         
         if let n1 = intermediateCalculation?.n1, let operation = intermediateCalculation?.calcMethod {
             if operation == "+" {
-                return (n1 + n2,String(n1)+"+"+String(n2))
+                return (n1 + n2,String(n1.clean)+"+"+String(n2.clean))
             }else if operation == "-" {
-                return (n1 - n2,String(n1)+"-"+String(n2))
+                return (n1 - n2,String(n1.clean)+"-"+String(n2.clean))
             }else if operation == "×" {
-                return (n1 * n2,String(n1)+"×"+String(n2))
+                return (n1 * n2,String(n1.clean)+"×"+String(n2.clean))
             }else if operation == "/" {
-                return (n1 / n2,String(n1)+"/"+String(n2))
+                return (n1 / n2,String(n1.clean)+"/"+String(n2.clean))
             }else{
                 fatalError("The operation passed in does not match any of the cases.")
             }
