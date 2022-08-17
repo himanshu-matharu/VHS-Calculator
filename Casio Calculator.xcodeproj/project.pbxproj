@@ -19,7 +19,7 @@
 /* Begin PBXFileReference section */
 		A34AAB1C28AD2545004DC0D4 /* Float+CleanString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Float+CleanString.swift"; sourceTree = "<group>"; };
 		A3819C8C27FECADD00AFA345 /* CalculatorLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorLogic.swift; sourceTree = "<group>"; };
-		ADB1961D2146629E00C5317F /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADB1961D2146629E00C5317F /* Casio Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Casio Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADB196202146629E00C5317F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADB196222146629E00C5317F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ADB196252146629E00C5317F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -83,7 +83,7 @@
 		ADB1961E2146629E00C5317F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ADB1961D2146629E00C5317F /* Calculator.app */,
+				ADB1961D2146629E00C5317F /* Casio Calculator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,9 +105,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ADB1961C2146629E00C5317F /* Calculator */ = {
+		ADB1961C2146629E00C5317F /* Casio Calculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ADB1962F214662A000C5317F /* Build configuration list for PBXNativeTarget "Calculator" */;
+			buildConfigurationList = ADB1962F214662A000C5317F /* Build configuration list for PBXNativeTarget "Casio Calculator" */;
 			buildPhases = (
 				ADB196192146629E00C5317F /* Sources */,
 				ADB1961A2146629E00C5317F /* Frameworks */,
@@ -117,9 +117,9 @@
 			);
 			dependencies = (
 			);
-			name = Calculator;
+			name = "Casio Calculator";
 			productName = Calculator;
-			productReference = ADB1961D2146629E00C5317F /* Calculator.app */;
+			productReference = ADB1961D2146629E00C5317F /* Casio Calculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -138,7 +138,7 @@
 					};
 				};
 			};
-			buildConfigurationList = ADB196182146629E00C5317F /* Build configuration list for PBXProject "Calculator" */;
+			buildConfigurationList = ADB196182146629E00C5317F /* Build configuration list for PBXProject "Casio Calculator" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -151,7 +151,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ADB1961C2146629E00C5317F /* Calculator */,
+				ADB1961C2146629E00C5317F /* Casio Calculator */,
 			);
 		};
 /* End PBXProject section */
@@ -360,7 +360,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ADB196182146629E00C5317F /* Build configuration list for PBXProject "Calculator" */ = {
+		ADB196182146629E00C5317F /* Build configuration list for PBXProject "Casio Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ADB1962D214662A000C5317F /* Debug */,
@@ -369,7 +369,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ADB1962F214662A000C5317F /* Build configuration list for PBXNativeTarget "Calculator" */ = {
+		ADB1962F214662A000C5317F /* Build configuration list for PBXNativeTarget "Casio Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ADB19630214662A000C5317F /* Debug */,
