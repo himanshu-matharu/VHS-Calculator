@@ -12,6 +12,9 @@
 ## App Store link
 The app is under review on Apple AppStore Connect and will be available soon.
 
+## Android Version
+The Android version of the app is available <a href="https://github.com/himanshu-matharu/VHS-Calculator-Android">here</a>.
+
 # Description
 Retro Casio themed beautiful calculator app.
 
@@ -38,7 +41,7 @@ git clone https://github.com/himanshu-matharu/VHS-Calculator.git
 3. Build and Run.
 
 # License
-The Minimal Weather app is free and open-source software distributed under the MIT License. See the <a href="https://github.com/himanshu-matharu/VHS-Calculator/blob/master/LICENSE">LICENSE</a> file for more details.
+The Casio Calculator app is free and open-source software distributed under the MIT License. See the <a href="https://github.com/himanshu-matharu/VHS-Calculator/blob/master/LICENSE">LICENSE</a> file for more details.
 
 # Contact
 For any queries, send me a mail on himanshumatharu1155@gmail.com
